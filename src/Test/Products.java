@@ -35,7 +35,7 @@ public class Products {
 	public void ProductsPage() throws InterruptedException {
 		WebElement productBtn=driver.findElement(By.partialLinkText("Products"));
 		productBtn.click();
-		
+		 
 		
 		//Verify user is navigated to ALL PRODUCTS page successfully
 		Assert.assertEquals(driver.getCurrentUrl().contains("products"), true);
