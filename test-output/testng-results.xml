@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="٢٠٢٦-٠٤-٢٠T١٦:٠٤:١٢ EET" name="Default suite" finished-at="٢٠٢٦-٠٤-٢٠T١٦:٠٤:١٩ EET" duration-ms="7232">
+  <suite started-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤١ EET" name="Default suite" finished-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٩ EET" duration-ms="8389">
     <groups>
     </groups>
-    <test started-at="٢٠٢٦-٠٤-٢٠T١٦:٠٤:١٢ EET" name="Default test" finished-at="٢٠٢٦-٠٤-٢٠T١٦:٠٤:١٩ EET" duration-ms="7232">
-      <class name="Test.Products">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Test.Products@dd05255]" started-at="٢٠٢٦-٠٤-٢٠T١٦:٠٤:١٢ EET" name="Setup" finished-at="٢٠٢٦-٠٤-٢٠T١٦:٠٤:١٦ EET" duration-ms="3710" status="PASS">
+    <test started-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤١ EET" name="Default test" finished-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٩ EET" duration-ms="8389">
+      <class name="Test.Subscription">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Test.Subscription@10683d9d]" started-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤١ EET" name="Setup" finished-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٦ EET" duration-ms="5181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="ProductsPage()[pri:1, instance:Test.Products@dd05255]" started-at="٢٠٢٦-٠٤-٢٠T١٦:٠٤:١٦ EET" name="ProductsPage" finished-at="٢٠٢٦-٠٤-٢٠T١٦:٠٤:١٨ EET" duration-ms="1690" status="PASS">
+        <test-method is-config="true" signature="RunAfterEveryMethod()[pri:0, instance:Test.Subscription@10683d9d]" started-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٦ EET" name="RunAfterEveryMethod" finished-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٦ EET" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ProductsPage -->
-        <test-method signature="SearchProduct()[pri:2, instance:Test.Products@dd05255]" started-at="٢٠٢٦-٠٤-٢٠T١٦:٠٤:١٨ EET" name="SearchProduct" finished-at="٢٠٢٦-٠٤-٢٠T١٦:٠٤:١٩ EET" duration-ms="1766" status="PASS">
+        </test-method> <!-- RunAfterEveryMethod -->
+        <test-method signature="ConnectDB()[pri:0, instance:Test.Subscription@10683d9d]" started-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٦ EET" name="ConnectDB" finished-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٦ EET" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchProduct -->
-      </class> <!-- Test.Products -->
+        </test-method> <!-- ConnectDB -->
+        <test-method signature="HomePageSubscription()[pri:1, instance:Test.Subscription@10683d9d]" started-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٦ EET" name="HomePageSubscription" finished-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٧ EET" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSubscription -->
+        <test-method is-config="true" signature="RunAfterEveryMethod()[pri:0, instance:Test.Subscription@10683d9d]" started-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٦ EET" name="RunAfterEveryMethod" finished-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٦ EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryMethod -->
+        <test-method signature="CartPageSubscription()[pri:2, instance:Test.Subscription@10683d9d]" started-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٧ EET" name="CartPageSubscription" finished-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٩ EET" duration-ms="2428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartPageSubscription -->
+        <test-method is-config="true" signature="RunAfterEveryMethod()[pri:0, instance:Test.Subscription@10683d9d]" started-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٧ EET" name="RunAfterEveryMethod" finished-at="٢٠٢٦-٠٤-٢٢T٠١:٥٥:٤٧ EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAfterEveryMethod -->
+      </class> <!-- Test.Subscription -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -18,6 +18,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
  
+
+//Test Case 6
 public class ContactUsForm {
 	WebDriver driver;
 	String WebsiteName="https://automationexercise.com/";
@@ -108,7 +110,7 @@ public class ContactUsForm {
 		
 		Thread.sleep(3000);
 		
-		//9. Click OK button
+		//Click OK button
 		driver.switchTo().alert().accept();
 		
 		//Verify success message 'Success! Your details have been submitted successfully.' is visible
